@@ -1,23 +1,8 @@
 const express= require("express");
 const path=require("path");
 const app=express();
-// const mongoose = require('mongoose');
 
-// main().catch(err => console.log(err));
-
-// async function main() {
-//   await mongoose.connect('mongodb://localhost:80/indexwomen');
-// }
 const port=80;
-//define mongoose schema
-// const indexSchema = new mongoose.Schema({
-//     name: String,
-//     Username: String,
-//     age: String,
-//     phone: String,
-//     password: String
-//   });
-//   const index = mongoose.model('Index', indexSchema);
 //express
 app.use('/static',express.static('static'));
 app.use(express.urlencoded());
