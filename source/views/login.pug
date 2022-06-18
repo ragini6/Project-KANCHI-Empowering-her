@@ -1,0 +1,24 @@
+doctype html
+head
+  meta(charset='UTF-8')
+  meta(http-equiv='X-UA-Compatible' content='IE=edge')
+  meta(name='viewport' content='width=device-width, initial-scale=1.0')
+  title Login
+  
+  style
+    include ../static/login.css
+  script
+    include ../static/login.js 
+section#hero
+  .container
+    h1 Welcome to Our Classes
+    form(name="formhere" method='post')
+      .form-group
+        input(type='user' name='username' id="username" placeholder='Username')
+      .form-group
+        input(type='pass' name='password' id="password" placeholder='Password')
+    div
+      button.btn(id="submit" value="Login" onclick="validate()") Login
+         
+
+  
