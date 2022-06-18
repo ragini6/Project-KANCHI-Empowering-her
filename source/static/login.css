@@ -1,0 +1,39 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background: url(/static/picture17.jpg);
+    font-family: sans-serif;
+}
+.container{
+      
+    border: 5px solid rgb(10, 6, 12) ;
+    background-color: white;
+    margin: 200px 500px;
+    padding: 30px 10px;
+    width: 30%;
+    border-radius: 20px; 
+}
+.container h1{
+    text-align: center;
+}
+.form-group input{
+    font-family: 'Ubuntu Condensed', sans-serif;
+    text-align: center;
+    background-color: rgb(236, 193, 210);
+    display: block;
+    border: 3px solid;
+    width: 300px;
+    padding: 6px;
+    margin: 11px auto;
+    border-radius: 15px;
+}
+.container button{
+display: block;
+width: 100px;
+margin: 20px auto;
+border-radius: 6px;
+cursor: pointer;
+}
+.container button:hover{
+    background-color: rgb(124, 185, 204);
+}
