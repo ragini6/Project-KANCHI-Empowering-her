@@ -1,5 +1,5 @@
 
-Kaanchi
+Kanchi
 =======
 
 This project is made to teach english to rural women so that they can use this skill for getting jobs and can teach others too  
