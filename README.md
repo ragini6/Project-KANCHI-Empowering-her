@@ -4,7 +4,7 @@ Kaanchi
 
 This project is made to teach english to rural women so that they can use this skill for getting jobs and can teach others too  
 Here we also considered women security by adding some NGOs  
-This website consists of 3 sections: Learning, Practice and NGOs**
+This website consists of 3 sections: Learning, Practice and NGOs
 
 ### LEARNING SECTION
 
